@@ -1,0 +1,11 @@
+Group Members:
+Steven Ly 803938426
+Jason Zhang 503888927
+
+This is our lab submission for part 1c. We fixed a lot of the parsing issues that we had before.
+We run the parallel processes by finding all the depdencies on a certain level of the graph,
+and just execute all the commands that correspond to it.
+We had a lot of trouble working with wait, and getting the child processes to return the right thing.
+
+We added additional test cases called test-parallel.sh and test-parallel-subsh.sh, to test
+the parallel cases.
